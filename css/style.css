@@ -92,6 +92,7 @@ h1{
 }
 .gallery__container{
     width: 100%;
+
 }
 .gallery-top__item{
     background-color: #C0C0C0;
@@ -108,14 +109,14 @@ h1{
 
 .gallery-bottom--left{
     background-color: #C0C0C0;
-    width: 60%;
+    width: 55%;
     height: 120px;
     margin: 5px;
 }
 
 .gallery-bottom--right{
     background-color: #C0C0C0;
-    width: 40%;
+    width: 45%;
     height: 120px;
     margin: 5px;
 }
@@ -144,6 +145,10 @@ h1{
     height: 135px;
     margin: 5px;
     /*align-self: center;*/
+}
+
+.form__button{
+
 }
 
 footer {
