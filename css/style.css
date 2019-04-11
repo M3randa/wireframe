@@ -144,14 +144,11 @@ h1{
 
 .form__block--right{
     display: flex;
-}
-
-.form__block form__block--right{
+    justify-items: flex-end;
     background-color: #C0C0C0;
     width: 385px;
     height: 135px;
     margin: 5px;
-    float: left;
 }
 
 .form__button{
@@ -161,7 +158,12 @@ h1{
     width: 115px;
     height: 30px;
     margin-right: 445px;
+}
 
+.button__form{
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
 }
 
 footer {
